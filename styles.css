@@ -1,0 +1,152 @@
+#banner {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/05/05/68/9859685b678ea96.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+    width: 100%;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+}
+
+#myDiv {
+    background-color: black;
+    width: 400px;
+    height: 300px;
+    left: 36%;
+    border-radius: 20px;
+    color: white;
+    font-family: Verdana;
+    font-size: 100px;
+    position: relative;
+    text-align: center;
+    text-shadow: 3px 3px #ff0000;
+    animation: flash 2s infinite, introanim 2s;
+}
+
+.container-banner {
+    width: 100%;
+    height: 90px;
+    background-color: #dddddd;
+    position:absolute;
+    visibility: visible;
+}
+
+.container {
+    left: 175px;
+    margin: 10px auto;
+    z-index: 1;
+    position: absolute;
+}
+
+.navigator {
+    width:200px;
+    height:45px;
+    border-radius: 20px;
+    background-color: #5d6d7e;
+    margin: 2px;
+    font-family: Verdana;
+    font-size: 25px;
+    padding-top:10px;
+    color: #61edcc;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navigator_body {
+    width:200px;
+    height:0px;
+    visibility: hidden;
+    border-radius: 20px;
+    background-color: #5d6d7e;
+    margin: 2px;
+    font-family: Verdana;
+    font-size: 20px;
+    padding-top:20px;
+    color: #ffaaaa;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1;
+}
+
+body {
+    background-color: #eeddee;
+    padding: 0px;
+    margin: 0px;
+}
+
+.b_img {
+    background-color: #ff5555;
+    padding: 5px;
+}
+
+.imgs {
+    width: 550px;
+    height: 358px;
+}
+
+.foodtbl {
+    position: absolute;
+    z-index: -4;
+}
+
+.desc_div {
+    background-color: #5555ff;
+    height: 200px;
+    width: 700px;
+    padding-top: 1px;
+    padding-left: 15px;
+}
+
+.desc {
+    padding: 10px;
+    width: 665px;
+    height: 145px;
+    background-color: white;
+}
+
+.listrating_div {
+    background-color: #55ef67;
+    height: 400px;
+    width: 400px;
+    padding-top: 1px;
+    padding-left: 15px;
+}
+
+.listrating {
+    padding: 10px;
+    width: 365px;
+    height: 345px;
+    background-color: white;
+}
+
+.rating {
+    width: 20px;
+    height:20px;
+}
+
+.foods {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    visibility: hidden;
+    transform: rotate(20deg);
+}
+
+.pzs {
+    visibility: visible;
+}
+
+@keyframes introanim {
+    from {left: 0px;}
+    to {left: 36%;}
+}
+
+@keyframes flash {
+   0%, 50%, 100% {
+      color: yellow;
+   }
+   25%, 75% {
+      color: black;
+   }
+}
