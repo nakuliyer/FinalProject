@@ -5,6 +5,7 @@
       <link rel="stylesheet" type="text/css" href="styles.css" />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	    <script src="script.js"></script>
+      <!--<meta charset="UTF-8"></meta>-->
   </head>
 
   <body>
@@ -42,24 +43,89 @@
     <table class="foodtbl" style="top:500px;"> <!-- This creates the image/text layout that I want for the website -->
       <tr>
         <td><div class="b_img" style="margin-left: 50px;"><a href="https://www.tripadvisor.com/LocationPhotoDirectLink-g34177-d2698421-i45261660-That_Pizza_Place-DeFuniak_Springs_Florida.html#45261660"><img class="imgs" id="img1" alt="" src="https://media-cdn.tripadvisor.com/media/photo-s/02/b2/a3/5c/that-pizza-place.jpg"/></a><br/>Click image to go to the image source</div></td>
-        <td><div class="desc_div" style="margin-left: 50px;"><p class="desc 2star">This is pizza.</p></div>
+        <td><div class="desc_div" style="margin-left: 50px;"><p class="desc 2star" id="desc1">Cheese Pizza</br></br></p></div>
         </td>
       </tr>
     </table>
     <table class="foodtbl" style="top: 900px;">
       <tr>
-        <td><div class="desc_div" style="margin-left: 50px;"><p class="desc 3star">This is pizza.</p></div></td>
+        <td><div class="desc_div" style="margin-left: 50px;"><p class="desc 3star" id="desc2">Veggie Pizza</br></br></p></div></td>
         <td><div class="b_img" style="margin-left: 50px;"><a href="https://www.360bistrobar.com/product/veggie-pizza/"><img class="imgs" id="img2" alt="" src="https://www.360bistrobar.com/wp-content/uploads/sites/16/2017/03/veggie-pizza-600x400.jpg"/></a><br/>Click image to go to the image source</div></td>
       </tr>
     </table>
     <table class="foodtbl" style="top:1300px;"> <!-- This creates the image/text layout that I want for the website -->
       <tr>
         <td><div class="b_img" style="margin-left: 50px;"><a href="http://www.kraftrecipes.com/recipes/grilled-white-chicken-pizza-179732.aspx"><img class="imgs" id="img3" alt="" src="http://assets.kraftfoods.com/recipe_images/opendeploy/179732_640x428.jpg"/></a><br/>Click image to go to the image source</div></td>
-        <td><div class="desc_div" style="margin-left: 50px;"><p class="desc 2star">This is pizza.</p></div>
+        <td><div class="desc_div" style="margin-left: 50px;"><p class="desc 2star" id="desc3">Buffalo Chicken and Veggie Pizza</br></br></p></div>
         </td>
       </tr>
     </table>
-    <div class="listrating_div" style="position: absolute; top: 1750px; left: 35%;"><p class="listrating">This is not pizza.</p></div>
+    <div class="listrating_div" style="position: absolute; top: 1750px; left: 35%;"><div class="listrating"><p id="mftop">My favorite types of pizza:<ol id="mftopol">
+      <li>Plain Cheese</li>
+      <li>Margherita</li>
+      <li>Veggie</li>
+      <li>Buffalo Chicken</li>
+      <li>Stuffed Crust</li>
+      <li>Garden Veggie</li>
+    </ol></p></div></div>
 
+    <div class="listrating_div" style="position: absolute; top: 2000px; left: 10%;"><div class="listrating"><p style="font-size: 40px;"><span style="font-size: 130px; font-family: Verdana; font-weight: bold;">99%</span></br>of all responders liked this
+    </p></div></div>
+
+    <div class="listrating_div" style="position: absolute; top: 2000px; left: 60%;"><div class="listrating"><p>Response:</p><img style="width: 90%; height: 90%;" src="https://cdn.shopify.com/s/files/1/1061/1924/products/Smiling_Face_Emoji_large.png?v=1480481056" /></div></div>
+
+    <div class="image_overlay_expl_div" style="top: 2500px; right: 3%; background-color: yellow;">
+      <div class="image_overlay_expl">
+        <p id="image_overlay_expl_p" style="font-size: 35px;">Scroll down to slide through the showcase!</p>
+      </div>
+    </div>
+
+    <div class="image_overlay_expl_div" style="top: 3150px; left: 3%; background-color: purple;">
+      <div class="image_overlay_expl">
+        <p id="image_overlay_expl_p" style="font-size: 50px;">Enjoy the gifs!</p>
+      </div>
+    </div>
+
+    <div class="image_overlay">
+      <img class="image-from-overlay" id="fim1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU1a3OCg7jhn8pqJMSznGKGiA3ktHwG-onDJPewHzpfCowgOgV" />
+      <img class="image-from-overlay" id="fim2" src="http://cyber-breeze.com/wp-content/uploads/2017/02/featured-image-39.jpg" />
+      <img class="image-from-overlay" id="fim3" src="https://asiasociety.org/files/160802_chinese_food.jpg" />
+      <img class="image-from-overlay" id="fim4" src="https://i.ytimg.com/vi/ZJeAbcqwHIk/hqdefault.jpg" />
+      <img class="image-from-overlay" id="fim5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCLz1dwh3uZ35DUldc2fTo3yvI8XoedAaITaxtlp7h9PazIEg7Cw" />
+      <img class="image-from-overlay" id="fim6" src="https://www.drdavidludwig.com/wp-content/uploads/2017/01/1-RIS_6IbCLYv1X3bzYW1lmA.jpeg" />
+      <img class="image-from-overlay" id="fim7" src="http://bigapplecurry.files.wordpress.com/2012/11/istock_000019639558_medium.jpg" />
+      <img class="image-from-overlay" id="fim8" src="https://skinnyms.com/wp-content/uploads/2013/12/Slow-Cooker-Lasagna-2-750x500.jpg" />
+      <div class="div-from-overlay" id="fdi1"></div>
+      <div class="div-from-overlay" id="fdi2"></div>
+      <div class="div-from-overlay" id="fdi3"></div>
+      <div class="div-from-overlay" id="fdi4"></div>
+      <div class="div-from-overlay" id="fdi5"></div>
+      <div class="div-from-overlay" id="fdi6"></div>
+      <div class="div-from-overlay" id="fdi7"></div>
+      <div class="div-from-overlay" id="fdi8"></div>
+    </div>
+
+    <table class="gif_tbl">
+      <tr>
+        <td>
+          <div class="gif_div" id="l_arr">
+            <img id="left_arr" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Circle_arrow_left_font_awesome.svg/2000px-Circle_arrow_left_font_awesome.svg.png" />
+          </div>
+        </td>
+        <td>
+          <div class="gif_div">
+            <!--img id="gif" src="https://images.food52.com/qtj-bnkgWXVItO3DuZcjGu0QJXo=/a7c2c101-a0b2-4f9f-9c90-8c365ac12147--tumblr_myjv1jb2q71t5z2fwo1_500.gif"/-->
+            <div id="gif"/>
+          </div>
+        </td>
+        <td>
+          <div class="gif_div" id="r_arr">
+            <img id="right_arr" src="https://www.shareicon.net/data/512x512/2015/10/17/657458_arrows_512x512.png" />
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <div class="bottom_div"></br></br>This website was created by Nakul Iyer using HTML, CSS, and JQuery.</div>
   </body>
 </html>

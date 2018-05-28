@@ -1,3 +1,7 @@
+p, li {
+    font-family: Verdana;
+}
+
 #banner {
     background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/05/05/68/9859685b678ea96.jpg);
     background-repeat: no-repeat;
@@ -28,14 +32,15 @@
     width: 100%;
     height: 90px;
     background-color: #dddddd;
-    position:absolute;
+    position: absolute;
     visibility: visible;
+    z-index: 10;
 }
 
 .container {
     left: 175px;
     margin: 10px auto;
-    z-index: 1;
+    z-index: 10;
     position: absolute;
 }
 
@@ -45,6 +50,7 @@
     border-radius: 20px;
     background-color: #5d6d7e;
     margin: 2px;
+    z-index: 10;
     font-family: Verdana;
     font-size: 25px;
     padding-top:10px;
@@ -60,13 +66,13 @@
     border-radius: 20px;
     background-color: #5d6d7e;
     margin: 2px;
+    z-index: 10;
     font-family: Verdana;
     font-size: 20px;
     padding-top:20px;
     color: #ffaaaa;
     text-align: center;
     font-weight: bold;
-    z-index: 1;
 }
 
 body {
@@ -109,20 +115,23 @@ body {
     background-color: #55ef67;
     height: 400px;
     width: 400px;
-    padding-top: 1px;
+    padding-top: 15px;
     padding-left: 15px;
+    z-index: -1;
+    text-align: center;
 }
 
 .listrating {
-    padding: 10px;
-    width: 365px;
-    height: 345px;
+    padding: 20px;
+    width: 340px;
+    height: 340px;
     background-color: white;
+    z-index: -1;
 }
 
 .rating {
-    width: 20px;
-    height:20px;
+    width: 80px;
+    height:80px;
 }
 
 .foods {
@@ -135,6 +144,112 @@ body {
 
 .pzs {
     visibility: visible;
+}
+
+#pz {
+    background-color: #ffffe0;
+}
+
+.bottom_div {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/05/05/68/9859685b678ea96.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 4000px; /* This one is very important*/
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+.image_overlay {
+    position: absolute;
+    top: 2500px;
+    z-index: -1;
+    width: 100%;
+    height: 100px;
+}
+
+.image-from-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 450px;
+    height: 300px;
+}
+
+.div-from-overlay {
+    position: absolute;
+    width: 480px;
+    height: 330px;
+    background-color: red;
+    z-index: -5;
+}
+
+.gif_tbl {
+    position: absolute;
+    top: 3300px;
+    z-index: 0;
+    left: 2.5%;
+}
+
+.gif_div {
+    padding: 10px;
+    background-color: orange;
+}
+
+.image_overlay_expl {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: white;
+    text-align: center;
+}
+
+#image_overlay_expl_p {
+    margin: 15px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.image_overlay_expl_div {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  padding-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#gif {
+    top: 0;
+    background-image: url("https://images.food52.com/qtj-bnkgWXVItO3DuZcjGu0QJXo=/a7c2c101-a0b2-4f9f-9c90-8c365ac12147--tumblr_myjv1jb2q71t5z2fwo1_500.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 900px;
+    height: 600px;
+    padding: 0;
+    margin: 0;
+}
+
+#left_arr {
+    width: 200px;
+    height: 200px;
+}
+
+#right_arr {
+    width: 200px;
+    height: 200px;
+}
+
+li {
+    font-size: 20px;
+    color: red;
 }
 
 @keyframes introanim {
