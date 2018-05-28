@@ -8,6 +8,7 @@ $(document).ready(function(){
 
     var gifs = ["https://images.food52.com/qtj-bnkgWXVItO3DuZcjGu0QJXo=/a7c2c101-a0b2-4f9f-9c90-8c365ac12147--tumblr_myjv1jb2q71t5z2fwo1_500.gif", "https://cdn.pastemagazine.com/www/articles/1CupcakeFrosting-FoodGifs.gif", "https://cdn.pastemagazine.com/www/articles/1Onion-FoodGifs.gif", "https://cdn.pastemagazine.com/www/articles/1SeparateEgg-FoodWine.gif", "https://cdn.pastemagazine.com/www/articles/1peelorange-gif.gif", "https://img.buzzfeed.com/buzzfeed-static/static/enhanced/web03/2012/10/25/13/anigif_enhanced-buzz-15131-1351187087-4.gif?downsize=715"];
 
+
     $("#l_arr").click(function() {
         gifnum -= 1;
         if(gifnum < 0) {gifnum = gifs.length-1;}
@@ -113,6 +114,9 @@ $(document).ready(function(){
       $("#img1").attr("src", "http://tastykitchen.com/recipes/wp-content/uploads/sites/2/2014/07/Extra-Crispy-Oven-Baked-French-Fries-by-Jen-and-Emily-@-Layers-of-Happiness-on-July-2-2014-410x273.jpg");
       $("#img2").attr("src", "https://i.ytimg.com/vi/AhImW2R9VDg/maxresdefault.jpg");
       $("#img3").attr("src", "https://www.pizzahagerstown.com/wp-content/uploads/lunch-dinner_555-menu_crispy-chicken-sandwich-fries.jpg");
+      $("#a1").attr("href", "http://tastykitchen.com/recipes/wp-content/uploads/sites/2/2014/07/Extra-Crispy-Oven-Baked-French-Fries-by-Jen-and-Emily-@-Layers-of-Happiness-on-July-2-2014-410x273.jpg");
+      $("#a2").attr("href", "https://i.ytimg.com/vi/AhImW2R9VDg/maxresdefault.jpg");
+      $("#a3").attr("href", "https://www.pizzahagerstown.com/wp-content/uploads/lunch-dinner_555-menu_crispy-chicken-sandwich-fries.jpg");
       $(".rating").remove();
       $("#desc1").removeClass($("#desc1").attr("class").substring(5)).addClass("3star");
       $("#desc2").removeClass($("#desc2").attr("class").substring(5)).addClass("5star");
@@ -132,6 +136,9 @@ $(document).ready(function(){
       $("#img1").attr("src", "https://media-cdn.tripadvisor.com/media/photo-s/02/b2/a3/5c/that-pizza-place.jpg");
       $("#img2").attr("src", "https://www.360bistrobar.com/wp-content/uploads/sites/16/2017/03/veggie-pizza-600x400.jpg");
       $("#img3").attr("src", "http://assets.kraftfoods.com/recipe_images/opendeploy/179732_640x428.jpg");
+      $("#a1").attr("href", "https://www.tripadvisor.com/LocationPhotoDirectLink-g34177-d2698421-i45261660-That_Pizza_Place-DeFuniak_Springs_Florida.html#45261660");
+      $("#a2").attr("href", "https://www.360bistrobar.com/product/veggie-pizza/");
+      $("#a3").attr("href", "http://www.kraftrecipes.com/recipes/grilled-white-chicken-pizza-179732.aspx");
       $(".rating").remove();
       $("#desc1").removeClass($("#desc1").attr("class").substring(5)).addClass("5star");
       $("#desc2").removeClass($("#desc2").attr("class").substring(5)).addClass("3star");
@@ -151,6 +158,9 @@ $(document).ready(function(){
       $("#img1").attr("src", "https://assets.epicurious.com/photos/57a8a45db10b4fb03f234f34/2:1/w_1260%2Ch_630/southern-fried-chicken.jpg");
       $("#img2").attr("src", "https://images-gmi-pmc.edge-generalmills.com/6fbc6859-e2b1-499d-b0fa-ada600c9cc3f.jpg");
       $("#img3").attr("src", "https://www.maangchi.com/wp-content/uploads/2016/02/kkanpunggi-1.jpg");
+      $("#a1").attr("href", "https://assets.epicurious.com/photos/57a8a45db10b4fb03f234f34/2:1/w_1260%2Ch_630/southern-fried-chicken.jpg");
+      $("#a2").attr("href", "https://images-gmi-pmc.edge-generalmills.com/6fbc6859-e2b1-499d-b0fa-ada600c9cc3f.jpg");
+      $("#a3").attr("href", "https://www.maangchi.com/wp-content/uploads/2016/02/kkanpunggi-1.jpg");
       $(".rating").remove();
       $("#desc1").removeClass($("#desc1").attr("class").substring(5)).addClass("3star");
       $("#desc2").removeClass($("#desc2").attr("class").substring(5)).addClass("4star");
@@ -170,6 +180,9 @@ $(document).ready(function(){
       $("#img1").attr("src", "https://truffle-assets.imgix.net/5f5c384a-111-icecreamconecupcakes-dishland2.jpg");
       $("#img2").attr("src", "https://cdn2.recipestonourish.com/wp-content/uploads/2011/08/Honey-Vanilla-Ice-Cream-Recipes-to-Nourish-2.jpg");
       $("#img3").attr("src", "https://www.foodmatters.com/media/images/articles/choc-chip-icecream.jpg");
+      $("#a1").attr("href", "https://truffle-assets.imgix.net/5f5c384a-111-icecreamconecupcakes-dishland2.jpg");
+      $("#a2").attr("href", "https://cdn2.recipestonourish.com/wp-content/uploads/2011/08/Honey-Vanilla-Ice-Cream-Recipes-to-Nourish-2.jpg");
+      $("#a3").attr("href", "https://www.foodmatters.com/media/images/articles/choc-chip-icecream.jpg");
       $(".rating").remove();
       $("#desc1").removeClass($("#desc1").attr("class").substring(5)).addClass("5star");
       $("#desc2").removeClass($("#desc2").attr("class").substring(5)).addClass("5star");
@@ -189,6 +202,9 @@ $(document).ready(function(){
       $("#img1").attr("src", "https://search.chow.com/thumbnail/1280/800/www.chowstatic.com/assets/recipe_photos/28062_basic_cheese_nachos.jpg");
       $("#img2").attr("src", "https://images-gmi-pmc.edge-generalmills.com/4f5b624d-c9d0-4a75-acfe-fadbe40a7d1e.jpg");
       $("#img3").attr("src", "https://daiyafoods.com/wp-content/uploads/2016/05/Cinco-de-Mayo-Nachos-670x400.png");
+      $("#a1").attr("href", "https://search.chow.com/thumbnail/1280/800/www.chowstatic.com/assets/recipe_photos/28062_basic_cheese_nachos.jpg");
+      $("#a2").attr("href", "https://images-gmi-pmc.edge-generalmills.com/4f5b624d-c9d0-4a75-acfe-fadbe40a7d1e.jpg");
+      $("#a3").attr("href", "https://daiyafoods.com/wp-content/uploads/2016/05/Cinco-de-Mayo-Nachos-670x400.png");
       $(".rating").remove();
       $("#desc1").removeClass($("#desc1").attr("class").substring(5)).addClass("5star");
       $("#desc2").removeClass($("#desc2").attr("class").substring(5)).addClass("4star");

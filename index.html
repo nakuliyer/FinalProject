@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+  <!--
+    This is a website about food, containing lots of images of food.
+    Author: Nakul Iyer
+    Date: May 29, 2017
+  -->
   <head>
       <title>Nakul's World</title>
       <link rel="stylesheet" type="text/css" href="styles.css" />
@@ -18,7 +23,7 @@
       </tr>
     </table>
 
-    <div id="myDiv">Nakul's World</div> <!-- This is the little slider animation div -->
+    <div id="myDiv"><i>Nakul's World</i></div> <!-- This is the little slider animation div -->
     </div>
 
     <div class="container-banner" style="top: 350px; left: 0;">
@@ -35,31 +40,32 @@
         <td><div class="navigator_body" id="pzb">Pizza is a great Italian dish. Globally, Dominos serves about 1.5 million pizzas per day.</div></td>
         <td><div class="navigator_body" id="fcb">Fried Chicken is very crispy. KFC sells 1.8 billion pieces of fried chicken in an average year.</div></td>
         <td><div class="navigator_body" id="icb">Ice Cream is the best dessert. A gallon of ice cream weighs about 5 pounds.</div></td>
-        <td><div class="navigator_body" id="ncb">Nachos go really well with guacamole. That is just a fact.</div></td>
+        <td><div class="navigator_body" id="ncb">Nachos go really well with guacamole. November 6th is National Nacho Day.</div></td>
       </tr>
     </table>
   </div>
-
+    <!-- This part is the image/star-rating layout (The following 3 tables) -->
     <table class="foodtbl" style="top:500px;"> <!-- This creates the image/text layout that I want for the website -->
       <tr>
-        <td><div class="b_img" style="margin-left: 50px;"><a href="https://www.tripadvisor.com/LocationPhotoDirectLink-g34177-d2698421-i45261660-That_Pizza_Place-DeFuniak_Springs_Florida.html#45261660"><img class="imgs" id="img1" alt="" src="https://media-cdn.tripadvisor.com/media/photo-s/02/b2/a3/5c/that-pizza-place.jpg"/></a><br/>Click image to go to the image source</div></td>
-        <td><div class="desc_div" style="margin-left: 50px;"><p class="desc 2star" id="desc1">Cheese Pizza</br></br></p></div>
-        </td>
+          <td><div class="b_img" style="margin-left: 50px;"><a id="a1" href="https://www.tripadvisor.com/LocationPhotoDirectLink-g34177-d2698421-i45261660-That_Pizza_Place-DeFuniak_Springs_Florida.html#45261660"><img class="imgs" id="img1" alt="" src="https://media-cdn.tripadvisor.com/media/photo-s/02/b2/a3/5c/that-pizza-place.jpg"/></a><br/>Click image to go to the image source</div></td>
+          <td><div class="desc_div" style="margin-left: 50px;"><p class="desc 2star" id="desc1">Cheese Pizza</br></br></p></div></td>
       </tr>
     </table>
     <table class="foodtbl" style="top: 900px;">
       <tr>
         <td><div class="desc_div" style="margin-left: 50px;"><p class="desc 3star" id="desc2">Veggie Pizza</br></br></p></div></td>
-        <td><div class="b_img" style="margin-left: 50px;"><a href="https://www.360bistrobar.com/product/veggie-pizza/"><img class="imgs" id="img2" alt="" src="https://www.360bistrobar.com/wp-content/uploads/sites/16/2017/03/veggie-pizza-600x400.jpg"/></a><br/>Click image to go to the image source</div></td>
+        <td><div class="b_img" style="margin-left: 50px;"><a id="a2" href="https://www.360bistrobar.com/product/veggie-pizza/"><img class="imgs" id="img2" alt="" src="https://www.360bistrobar.com/wp-content/uploads/sites/16/2017/03/veggie-pizza-600x400.jpg"/></a><br/>Click image to go to the image source</div></td>
       </tr>
     </table>
     <table class="foodtbl" style="top:1300px;"> <!-- This creates the image/text layout that I want for the website -->
       <tr>
-        <td><div class="b_img" style="margin-left: 50px;"><a href="http://www.kraftrecipes.com/recipes/grilled-white-chicken-pizza-179732.aspx"><img class="imgs" id="img3" alt="" src="http://assets.kraftfoods.com/recipe_images/opendeploy/179732_640x428.jpg"/></a><br/>Click image to go to the image source</div></td>
+        <td><div class="b_img" style="margin-left: 50px;"><a id="a3" href="http://www.kraftrecipes.com/recipes/grilled-white-chicken-pizza-179732.aspx"><img class="imgs" id="img3" alt="" src="http://assets.kraftfoods.com/recipe_images/opendeploy/179732_640x428.jpg"/></a><br/>Click image to go to the image source</div></td>
         <td><div class="desc_div" style="margin-left: 50px;"><p class="desc 2star" id="desc3">Buffalo Chicken and Veggie Pizza</br></br></p></div>
         </td>
       </tr>
     </table>
+
+    <!-- The following 3 divs make the response objects (top 6 favorites and the emoji)  -->
     <div class="listrating_div" style="position: absolute; top: 1750px; left: 35%;"><div class="listrating"><p id="mftop">My favorite types of pizza:<ol id="mftopol">
       <li>Plain Cheese</li>
       <li>Margherita</li>
@@ -68,11 +74,10 @@
       <li>Stuffed Crust</li>
       <li>Garden Veggie</li>
     </ol></p></div></div>
-
     <div class="listrating_div" style="position: absolute; top: 2000px; left: 10%;"><div class="listrating"><p style="font-size: 40px;"><span style="font-size: 130px; font-family: Verdana; font-weight: bold;">99%</span></br>of all responders liked this
     </p></div></div>
-
     <div class="listrating_div" style="position: absolute; top: 2000px; left: 60%;"><div class="listrating"><p>Response:</p><img style="width: 90%; height: 90%;" src="https://cdn.shopify.com/s/files/1/1061/1924/products/Smiling_Face_Emoji_large.png?v=1480481056" /></div></div>
+
 
     <div class="image_overlay_expl_div" style="top: 2500px; right: 3%; background-color: yellow;">
       <div class="image_overlay_expl">
